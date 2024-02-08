@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{69162a07-808f-4b95-a4b3-1c354344ae22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{bf4132ef-36bc-4ad0-bb0c-045495720960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function">
+      <UniqueIdentifier>{6b66c0fd-2881-44f5-8ae0-6367878ed668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{c33cafee-20d2-4710-aafb-7eb8b1fd7a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Math">
+      <UniqueIdentifier>{563146d3-756c-4cf0-bf88-67a85738c211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{00a9dbf6-4e3a-4a07-ba34-c8158bcd9646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\GLFW">
+      <UniqueIdentifier>{bb04f33d-a5f5-400f-960f-f6491226d56b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\GLFW\lib-vc2022">
+      <UniqueIdentifier>{75ccc996-277b-4b91-a7d5-38aab06e6599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function\Render">
+      <UniqueIdentifier>{8bf64b02-006b-49ab-965b-3139e451a543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Function\GamePlay">
+      <UniqueIdentifier>{c02d11d0-8764-4208-bdfc-defabff814d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cartesian3.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Homogeneous4.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Editor.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cartesian3.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Homogeneous4.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Editor.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glfw-3.3.9.bin.WIN64\glfw-3.3.9.bin.WIN64\include\GLFW\glfw3.h">
+      <Filter>Libraries\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\glfw-3.3.9.bin.WIN64\glfw-3.3.9.bin.WIN64\include\GLFW\glfw3native.h">
+      <Filter>Libraries\GLFW</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\glfw-3.3.9.bin.WIN64\glfw-3.3.9.bin.WIN64\lib-vc2022\glfw3dll.lib">
+      <Filter>Libraries\GLFW\lib-vc2022</Filter>
+    </Library>
+    <Library Include="..\..\glfw-3.3.9.bin.WIN64\glfw-3.3.9.bin.WIN64\lib-vc2022\glfw3.lib">
+      <Filter>Libraries\GLFW\lib-vc2022</Filter>
+    </Library>
+    <Library Include="..\..\glfw-3.3.9.bin.WIN64\glfw-3.3.9.bin.WIN64\lib-vc2022\glfw3_mt.lib">
+      <Filter>Libraries\GLFW\lib-vc2022</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\glfw-3.3.9.bin.WIN64\glfw-3.3.9.bin.WIN64\lib-vc2022\glfw3.dll">
+      <Filter>Libraries\GLFW\lib-vc2022</Filter>
+    </None>
+  </ItemGroup>
+</Project>
