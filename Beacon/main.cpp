@@ -5,6 +5,8 @@
 int main()
 { 
 	std::cout << "Hello, Game Engine!";
+	std::cout << "Hello, Game Engine!";
+	
 	Editor editor;
 	editor.Run();
 	return 0;
